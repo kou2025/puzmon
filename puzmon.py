@@ -253,7 +253,7 @@ def fill_gems():
 
 
 def print_gems():
-    eles=['火','水','風','土','命','無']
+    eles=['火','風','土','水','命','無']
     for i in gems:
         color=ELEMENT_COLORS[eles[i]]
         symbol = ELEMENT_SYMBOLS[eles[i]]
